@@ -1,0 +1,1 @@
+docker run -dit -p 8080:8080 -v /config:/config -e "EXTENSIONS=auth-totp" oznu/guacamole:armhf
